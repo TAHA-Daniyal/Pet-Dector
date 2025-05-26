@@ -1,9 +1,0 @@
-services:
-  - type: web
-    name: pet-detector
-    env: python
-    buildCommand: ""
-    startCommand: python app/main.py
-    runtime: python
-    region: oregon
-    plan: free
